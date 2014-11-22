@@ -1,4 +1,4 @@
-CyanogenMod
+Candy5
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
