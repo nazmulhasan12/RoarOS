@@ -1,8 +1,8 @@
 Candy5
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository use a command like this:
 
-    repo init -u git://github.com/rc420head-L/candy5.git -b c5
+    repo init -u git://github.com/CandyRoms/candy.git -b c5
 
 Then to sync up:
 
