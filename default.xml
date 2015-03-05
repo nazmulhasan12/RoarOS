@@ -579,7 +579,8 @@
   <project path="vendor/candy5" name="vendor_candy" remote="candy" revision="c5" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   
-  <!-- SaberMod Kernel Toolchains -->
+  <!-- Kernel Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="arm-eabi-4.8" remote="cd" revision="c5" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="arm-eabi-4.9" remote="cd" revision="c5" />
+  <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.10" name="Linaro-4.10" remote="cd" revision="c5" />
 </manifest>
