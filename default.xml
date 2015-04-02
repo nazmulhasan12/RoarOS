@@ -585,7 +585,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/candy5" name="vendor_candy5" remote="candy" />
+  <project path="vendor/candy5" name="vendor_candy" remote="candy" />
   
   <!-- Kernel Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="arm-eabi-4.8" remote="cd" revision="c5" />
