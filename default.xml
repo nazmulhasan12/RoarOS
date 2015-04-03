@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="gs"
-           fetch="https://git.sphere.ly" />
-           
-  <remote  name="cd"
-           fetch="https://github.com/CandyDevices" />
-
-  <remote  name="candy"
-           fetch="https://github.com/CandyRoms" 
-           revision="refs/heads/c5.1" />
-
+	
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-5.1.0_r3" />
-
+     
+  <remote  name="candy"
+           fetch="https://github.com/CandyRoms" 
+           revision="refs/heads/c5.1" />
+           
+  <remote  name="cd"
+           fetch="https://github.com/CandyDevices" />
+                         
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
+           
+  <remote  name="gs"
+           fetch="https://git.sphere.ly" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+           
+  <remote  name="tm"
+           fetch="https://github.com/themuppets" 
+           revision="refs/heads/cm-12.1" />
 
   <default revision="refs/heads/cm-12.1"
            remote="github"
