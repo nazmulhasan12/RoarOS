@@ -1,1 +1,27 @@
-repo init -u git://github.com/candyroms/candy.git -b c5.1
+
+CandyRoms
+===========
+
+Getting Started
+---------------
+
+To get started with Android/CandyRoms, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the CandyRoms trees, use a command like this:
+
+    repo init -u git://github.com/candyroms/candy.git -b c5.1
+
+
+Then to sync up:
+
+    repo sync
+
+Disclaimer
+--------
+
+All supported devices are listed on http://www.The-Candy-Shop.co. This is an active project and may not always be buildible but is constantly being maintained. (please feeel free to join our web forum to leave comments/reports)
+
+Enjoi and don't forget about our Sweetener Packs for extra cavities!!!
+
+
