@@ -601,10 +601,12 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/candy5" name="vendor_candy" remote="candy" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   
   <!-- Kernel Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="arm-eabi-4.8" remote="cd" revision="c5" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="arm-eabi-4.9" remote="cd" revision="c5" />
   <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.10" name="Linaro-4.10" remote="cd" revision="c5" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-candy-linux-gnueabi" name="mugenman1111/arm-candy-linux-gnueabi.git" remote="gs" revision="c5-z" />
+
 </manifest>
