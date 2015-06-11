@@ -603,6 +603,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/candy5" name="vendor_candy" remote="candy" />
+  <project path="packages/apps/CandyOTA" name="packages_apps_CandyOTA" remote="candy" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   
   <!-- Kernel Toolchains -->
