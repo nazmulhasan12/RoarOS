@@ -610,7 +610,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/candy5" name="vendor_candy" remote="candy" revision="c5.1" />
   <project path="packages/apps/CandyOTA" name="packages_apps_CandyOTA" remote="candy" revision="c5.1" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />  
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  
+  <!-- SlimWallpaperPicker -->
+  <project name="SlimSaber/packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="github" revision="lp5.1" />
 
   <!-- Kernel Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-candy-linux-gnueabi" name="mugenman1111/arm-candy-linux-gnueabi.git" remote="gs" revision="c5-z" />
