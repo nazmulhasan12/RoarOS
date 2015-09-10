@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
 
-           revision="refs/tags/android-5.1.1_r8" />
+           revision="refs/tags/android-5.1.1_r18" />
      
   <remote  name="candy"
            fetch="https://github.com/CandyRoms" 
