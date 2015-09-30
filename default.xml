@@ -621,5 +621,6 @@
 
   <!-- Kernel Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-candy-linux-gnueabi" name="mugenman1111/arm-candy-linux-gnueabi.git" remote="gs" revision="c5-z" />
+  <project path="prebuilts/gcc/linux-x86/arm/linaro-lto" name="arter97/linaro-lto" remote="github" revision="master" />
 
 </manifest>
