@@ -332,6 +332,7 @@
   <project path="vendor/candy5" name="vendor_candy" remote="candy" revision="c6.0" />
   <project path="packages/apps/CandyOTA" name="packages_apps_CandyOTA" remote="candy" revision="c6.0" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="candy" revision="c6.0" />
+  <project path="vendor/qcom/opensource/display-frameworks" name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" />
 <!-- END CANDY -->
 
 <!-- BEGIN AOSP -->
