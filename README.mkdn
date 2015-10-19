@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CandyRoms trees, use a command like this:
 
-    repo init -u git://github.com/candyroms/candy.git -b c5.1
+    repo init -u git://github.com/candyroms/candy.git -b c6.0
 
 
 Then to sync up:
