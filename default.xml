@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
+  <remote  name="cd"
+           fetch="https://github.com/candydevices"
+           revision="c6" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
