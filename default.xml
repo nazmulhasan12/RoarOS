@@ -619,8 +619,4 @@
   <!-- SlimWallpaperPicker -->
   <project name="SlimSaber/packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="github" revision="lp5.1" />
 
-  <!-- Kernel Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-candy-linux-gnueabi" name="mugenman1111/arm-candy-linux-gnueabi.git" remote="gs" revision="c5-z" />
-  <project path="prebuilts/gcc/linux-x86/arm/linaro-lto" name="arter97/linaro-lto" remote="github" revision="master" />
-
 </manifest>
