@@ -26,11 +26,20 @@
            sync-c="true"
            sync-j="4" />
 
-<!-- BEGIN CYANOGENMOD -->
+<!-- BEGIN CandySiX -->
   <project path="build" name="build" groups="pdk" remote="candy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="candy" name="candy" remote="candy" />
+  <project path="external/eos-utils" name="external_eos-utils" remote="candy" />
+  <project path="frameworks/base" name="frameworks_base" remote="candy" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" groups="pdk-fs" />
+  <project path="vendor/candy" name="vendor_candy" remote="candy" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="candy" groups="pdk" />
+<!-- END CandySiX -->
+
+
+<!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -134,7 +143,6 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="candy" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -239,7 +247,6 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" groups="pdk-fs" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" groups="pdk-fs" />
@@ -287,12 +294,9 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
-  <project path="vendor/candy" name="vendor_candy" remote="candy" />
   <project path="vendor/qcom/opensource/display-frameworks" name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" />
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
-  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="candy" groups="pdk" />
-
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
