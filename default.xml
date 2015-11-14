@@ -7,7 +7,7 @@
            revision="refs/tags/android-6.0.0_r26" />
            
   <remote  name="candy"
-           fetch="https://github.com/rc420head-M"
+           fetch="https://github.com/candyroms"
            revision="c6" />
            
   <remote  name="cd"
