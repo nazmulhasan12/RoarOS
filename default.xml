@@ -25,6 +25,10 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
+           
+ <remote  name="tm"
+          fetch="https://github.com/themuppets" 
+          revision="cm-13.0" />           
 
 <!-- BEGIN CandySiX -->
   <project path="build" name="build" groups="pdk" remote="candy" >
