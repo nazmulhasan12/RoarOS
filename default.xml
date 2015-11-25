@@ -36,6 +36,7 @@
   </project>
   <project path="candy" name="candy" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" remote="candy" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/OmniSwitch" name="BenzoRom/packages_apps_OmniSwitch" remote="github" revision="marshmallow" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" groups="pdk-fs" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="candy" groups="pdk" />
