@@ -40,7 +40,6 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" groups="pdk-fs" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="candy" groups="pdk" />
-  <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="candy" />
 <!-- END CandySiX -->
 
 
