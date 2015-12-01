@@ -68,6 +68,7 @@
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" groups="pdk" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" groups="pdk" />
+  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" groups="pdk" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
